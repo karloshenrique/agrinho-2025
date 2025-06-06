@@ -1,16 +1,17 @@
-/* Definir estilo básico para o corpo */
+/* Garantir que o body ocupe toda a tela e tenha um fundo verde */
 body {
     font-family: Arial, sans-serif; /* Fonte limpa e legível */
     background-color: #28a745; /* Fundo verde */
     color: white; /* Cor do texto branco */
     margin: 0; /* Remover margens padrões do navegador */
     padding: 0; /* Remover preenchimento padrão */
+    height: 100vh; /* Garantir que ocupe toda a altura da tela */
 }
 
 /* Estilo do container para centralizar e dar margens */
 .container {
     max-width: 800px; /* Limitar a largura do conteúdo */
-    margin: 20px auto; /* Centraliza e dá uma margem de 20px nas laterais */
+    margin: 30px auto; /* Centraliza e dá uma margem de 30px nas laterais */
     padding: 20px; /* Espaçamento interno do container */
     background-color: rgba(0, 0, 0, 0.1); /* Fundo leve para dar destaque */
     border-radius: 10px; /* Bordas arredondadas */

@@ -1,1 +1,40 @@
-background-color: #f0f0f0;
+/* Definir estilo básico para o corpo */
+body {
+    font-family: Arial, sans-serif; /* Fonte limpa e legível */
+    background-color: #28a745; /* Fundo verde */
+    color: white; /* Cor do texto branco */
+    margin: 0; /* Remover margens padrões do navegador */
+    padding: 0; /* Remover preenchimento padrão */
+}
+
+/* Estilo do container para centralizar e dar margens */
+.container {
+    max-width: 800px; /* Limitar a largura do conteúdo */
+    margin: 20px auto; /* Centraliza e dá uma margem de 20px nas laterais */
+    padding: 20px; /* Espaçamento interno do container */
+    background-color: rgba(0, 0, 0, 0.1); /* Fundo leve para dar destaque */
+    border-radius: 10px; /* Bordas arredondadas */
+}
+
+/* Título principal */
+h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Subtítulo */
+.subtitulo {
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Estilo do parágrafo do texto */
+.texto {
+    font-size: 18px;
+    line-height: 1.8; /* Aumenta o espaçamento entre as linhas */
+    text-align: justify; /* Alinha o texto de forma justificada */
+    margin-bottom: 20px;
+}
